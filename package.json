@@ -1,0 +1,23 @@
+{
+  "name": "comunel-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerovnia/comunel-server.git"
+  },
+  "author": "Volodymyr Nerovnia <nerv@i.ua>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nerovnia/comunel-server/issues"
+  },
+  "homepage": "https://github.com/nerovnia/comunel-server#readme",
+  "dependencies": {
+    "fastify": "^4.24.3"
+  }
+}
