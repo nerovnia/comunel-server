@@ -1,4 +1,5 @@
 import Fastify from 'fastify'
+import { userRoutes } from './modules/user/user.route'
 
 const app = Fastify({ logger: true }) // you can disable logging
 
@@ -23,5 +24,10 @@ async function main() {
     host: '0.0.0.0',
   })
 }
+
+
+app.register(userRoutes, { prefix: 'api/users' })
+
+
 main()
 
